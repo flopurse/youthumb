@@ -5,6 +5,15 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2YF044MCC5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2YF044MCC5');
+</script>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
