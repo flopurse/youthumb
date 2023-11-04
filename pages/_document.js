@@ -5,6 +5,13 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQL4MP3G');</script>
+<!-- End Google Tag Manager -->
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -23,15 +30,12 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-          <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KQL4MP3G');</script>
-<!-- End Google Tag Manager -->
         </Head>
         <body>
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQL4MP3G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
           <Main />
           <div id="custom-content">
             <section>
@@ -40,8 +44,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <ol>
                 <li>Copy the YouTube video URL.</li>
                 <li>Paste the URL into the download box on our website.</li>
-                <li>Choose the thumbnail size and format.</li>
                 <li>Click the "Download" button.</li>
+                <li>Choose the thumbnail size. Right-click on the image and select "Save image as"</li>
               </ol>
               <p>That's it! Your thumbnail will be downloaded to your computer in seconds.</p>
             </section>
@@ -80,10 +84,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
           <NextScript />
           <script type="text/javascript"> var infolinks_pid = 3408652; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
-          <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQL4MP3G"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
         </body>
       </Html>
     );
